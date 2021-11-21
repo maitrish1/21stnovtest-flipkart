@@ -42,7 +42,7 @@
     width: 60px;
     height: auto;
 }
-.options .options-list li a p{
+.options .options-list li a{
     text-decoration: none;
 }
 
@@ -53,4 +53,7 @@
 
 .dealoftheday-list li{
     list-style-type: none;
+}
+.dealoftheday .dealoftheday-list li a{
+    text-decoration: none;
 }
