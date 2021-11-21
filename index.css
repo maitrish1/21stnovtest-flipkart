@@ -5,7 +5,7 @@
 
 .header{
     background-color: #2874f0;
-    height:50px;
+    height:60px;
 }
 .header .header-list{
     display: flex;
@@ -27,7 +27,7 @@
 }
 
 .options{
-    background-color: antiquewhite;
+    padding: 10px;
 }
 .options .options-list{
     display: flex;
@@ -42,8 +42,15 @@
     width: 60px;
     height: auto;
 }
+.options .options-list li a p{
+    text-decoration: none;
+}
 
 .dealoftheday .dealoftheday-list{
     display: flex;
     justify-content:space-evenly;
+}
+
+.dealoftheday-list li{
+    list-style-type: none;
 }
