@@ -42,3 +42,8 @@
     width: 60px;
     height: auto;
 }
+
+.dealoftheday .dealoftheday-list{
+    display: flex;
+    justify-content:space-evenly;
+}
